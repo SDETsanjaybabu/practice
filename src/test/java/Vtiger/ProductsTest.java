@@ -97,6 +97,6 @@ public class ProductsTest {
 		Actions act1=new Actions(driver);
 		act1.moveToElement(ele3).perform();
 		driver.findElement(By.xpath("//a[.='Sign Out']")).click();
-		driver.close();
+		driver.quit();
 	}
 	}
